@@ -13,4 +13,4 @@ if (true) {
 const fixval = "Fix Value";
 console.log(fixval);
 
-// fixvar = "tes assigne value to cost"
+// fixvar = "tes assigne value to cost."
