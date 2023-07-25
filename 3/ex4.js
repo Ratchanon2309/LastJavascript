@@ -1,7 +1,9 @@
 function numbersSum(a) {
 let b = 0;
 for (let index = 0; index < a.length; index++) {
-    b += a [index] + index; 
+    if (typeof a[index] === "number" && !isNaN(a[index])) {
+    b += a [index]; 
+    }
 }
  return b;   
 }
