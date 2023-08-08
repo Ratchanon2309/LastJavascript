@@ -12,10 +12,11 @@ async function longRunningOperation() {
 async function run() {
     //logic
     console.log("Start!!");
+    await promiseTimeout(2000);
     // try take of await out and see
     const response = await longRunningOperation();
     console.log(response);
-    
+
     console.log("Stop!!");
 }
 
