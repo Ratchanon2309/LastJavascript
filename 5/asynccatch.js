@@ -18,7 +18,7 @@ async function msg() {
 msg(); // Lucky!!
 msg(); // Lucky!!
 msg(); // Lucky!!
-msg(); // Nope!!
+msg(); // Nope!
 msg(); // Lucky!!
-msg(); // Nope!!
-msg(); // Nope!!
+msg(); // Nope!
+msg(); // Nope!
